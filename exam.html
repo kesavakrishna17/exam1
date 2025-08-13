@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe's Web Portfolio</title>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>John Doe's Web Portfolio</h1>
+            <i>Showing HTML skills using Tables</i>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </center>
+    </header>
+    <hr>
+    <table border="1" cellpadding="10" cellspacing="0" width="100%">
+         <tr>
+            <section id="about">
+            <td colspan="2">
+                <img src="/images/logo1.jpg" alt="logo not found" width="50" height="50"><h2>About Me</h2>
+                <p>Hello! I'm John Doe,a passionate web developer. I love building  semantic, accessible, and responsive  websites using core web technologies</p>
+                <p>I specialize in front-end development, especially HTML,CSS and JavaScript.</p>
+                <table>
+                    <tr>
+                        <td align="right">
+                            <img src="/images/JavaScript.png" alt="John" aria-live="right" width="50" height="150">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </section>
+         </tr>
+        
+        <tr>
+        <section id="skills">
+            <td>
+                <span><img src="images/log02.jpg" alt="logo not found"><h2>Skills</h2></span>
+                <ul>
+                    <li>HTML5/CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Responsive Design</li>
+                    <li>Git & GitHub</li>
+                </ul>
+                <span><img src="images/logo3.jpg" alt="logo not found"><h2>Skill Levels</h2></span>
+                <table border="1" cellspacing="2" cellpadding="10">
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Expert</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </table>
+            </td>
+        </section>
+
+        <section id="projects">
+            <td>
+                <span><img src="images/logo3.jpg" alt="logo not found"><h2>Projects</h2></span>
+                    <ol type="1">
+                        <li><strong>Portfolio Website -</strong>My personal Portfolio built using pure HTML and CSS </li>
+                        <li><strong>Todo App -</strong>A task management tool with vanilla JavaScript</li>
+                        <li><strong>Weather App -</strong>A real-time weather dashboard using APIs.</li>
+                    </ol>
+                <span><img src="images/logo4,jpg" alt="logo not found"><h2>Screenshot</h2></span>
+                <img src="/images/projectimage.jpg" alt="Project Preview">
+            </td>
+        </section>
+        </tr>
+        
+
+        <tr>
+        <section id="contact">
+            <td colspan="2">
+                <h2>Contact</h2>
+                <fieldset>
+                    <legend>Contact Me</legend>
+                    <table border="0">
+                        <form>
+                            <tr>
+                                <td>
+                                    <label for="name">Full Name:</label>
+                                </td>
+                                <td>
+                                    <input type="text" id="name" name="name">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="email">Email</label>
+                                </td>
+                                <td>
+                                    <input type="email" id="email" name="email" required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="gender">Gender</label>
+                                </td>
+                                <td>
+                                    <input type="radio" id="gender" name="gender" value="male">
+                                    <label for="gender">Male</label>
+                                    <input type="radio" id="gender" name="gender" value="female">
+                                    <label for="gender">Female</label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="services">Services Interested</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" id="services"><label for="services">Web Design</label><br>
+                                    <input type="checkbox" id="services"><label for="services">SEO</label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="country">Country</label>
+                                </td>
+                                <td>
+                                    <select name="country" id="country">
+                                        <option value="USA">USA</option>
+                                        <option value="India">India</option>
+                                        <option value="Australia">Australia</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="message">Message</label>
+                                </td>
+                                <td>
+                                    <textarea name="message" id="message" rows="5" cols="50"></textarea><br>
+                            
+                                    <input type="submit" value="send">
+                                    <input type="reset" value="clear">
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </fieldset>
+            </td>
+        </section>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+            <center>
+                <h4>Last Updated: August 13,2025</h4>
+                <i>Created by John Doe</i><br>
+                <i><Strong>Email:</Strong><a href="https://www.gmail.com">john@example.com</a></i><br>
+                <i><strong>Website:</strong><a href="https://www.geeksforgeeks.com">example.com</a></i><br>
+                <p>&copy;2025 John Doe.All rights reserved</p>
+            </center>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+        
